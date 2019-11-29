@@ -28,7 +28,7 @@ void ofxQRCodeGenerator::generate(string url) {
 
 //--------------------------------------------------------------
 
-void ofxQRCodeGenerator::draw(int size) {
+void ofxQRCodeGenerator::draw(float size) {
 	for (int i = 0; i < qrCodeArr.size(); i++) {
 		if (qrCodeArr[i] == 1) ofSetColor(0);
 		else ofSetColor(255);

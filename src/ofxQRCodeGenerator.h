@@ -12,5 +12,5 @@ public:
 	vector<int> qrCodeArr;
 
 	void generate(string url);
-	void draw(int size);
+	void draw(float size);
 };
